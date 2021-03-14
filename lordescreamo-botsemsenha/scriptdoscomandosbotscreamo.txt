@@ -1,0 +1,36 @@
+Os comandos que uso pra Executar 
+
+Comandos Lorde Screamo
+
+$ termux-setup-storage
+
+$ pkg install git -y && pkg install nodejs -y && pkg install wget -y && pkg install libwebp -y && pkg install ffmpeg -y && pkg install pm2 -y
+
+$ cp  -r /sdcard/Download/lordescreamo-bot-main /data/data/com.termux/files/home
+
+
+$ cd lordescreamo-bot-main
+
+
+$ bash install.sh
+
+
+$ npm i -g pm2
+
+$ rm -rf BarBar.json
+
+
+
+$ pm2 start index.js
+
+
+$ pm2 monit
+
+
+
+
+
+
+
+
+
